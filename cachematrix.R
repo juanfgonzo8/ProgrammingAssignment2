@@ -3,6 +3,10 @@
 
 ## Write a short comment describing this function
 
+## I replicated what was done in the example.
+## I created a function that returns a list to which you can set a matrix,
+## and that list can save the inverse and be used with cacheSolve.
+
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
@@ -19,6 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## Again, I replicated the example. The input that the function needs is the
+## list created by makeCacheMatrix with a matrix already set.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
